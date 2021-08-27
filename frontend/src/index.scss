@@ -1,0 +1,45 @@
+// Color changes for bootstrap
+$primary: #1d546a;
+$secondary: #ff6600;
+
+@import "~bootstrap/scss/bootstrap";
+
+// Put other css here
+.click-cursor {
+    cursor: pointer;
+}
+.required:after {
+    content: " *";
+    color: red;
+}
+// nav dropdowns
+.dropdown-menu {
+    padding: 0px;
+    .dropdown-item {
+        color: $light;
+        background-color: $primary;
+        text-align: center;
+    }
+}
+.nav-link {
+    text-align: center;
+}
+
+.mw-400 {
+    max-width: 400px;
+}
+.mw-500 {
+    max-width: 500px;
+}
+.mw-600 {
+    max-width: 600px;
+}
+.mw-768 {
+    max-width: 768px;
+}
+.mw-800 {
+    max-width: 800px;
+}
+.mw-1024 {
+    max-width: 1024px;
+}

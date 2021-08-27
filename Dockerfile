@@ -3,7 +3,7 @@ FROM python:3.8
 # Install deps (node, pip stuff, etc)
 RUN apt-get update
 RUN curl -sL https://deb.nodesource.com/setup_14.x  | bash -
-RUN apt-get -y install nodejs npm
+RUN apt-get -y install nodejs
 
 # JS Dependency install
 COPY ./frontend/package.json /app/frontend/

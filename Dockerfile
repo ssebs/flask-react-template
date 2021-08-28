@@ -10,7 +10,6 @@ COPY ./frontend/package.json /app/frontend/
 RUN cd /app/frontend && npm install
 
 # Copy src files & build
-COPY ./db/sql /app/db/sql
 COPY ./frontend/public /app/frontend/public
 COPY ./frontend/src /app/frontend/src
 COPY ./projname/ /app/projname
